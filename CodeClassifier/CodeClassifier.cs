@@ -20,14 +20,17 @@ namespace CodeClassifier
         private const double MIN_TOKEN_FREQ_PER_FILE = 2;
 
         private const double FREQ_SCORE_MULTIPLIER = 20;
-        
+
         private static List<MatchTree> _matchTrees;
         private static HashSet<string> _uniqueTokenSet;
         private static Dictionary<string, Dictionary<string, double>> _tokenFreqPerLanguage;
 
-        private CodeClassifier()
+        private CodeClassifier(string trainingSetPath = "")
         {
-            string trainingSetPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            if (String.IsNullOrEmpty(trainingSetPath))
+            {
+                trainingSetPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            }
             if (trainingSetPath == null)
             {
                 throw new DirectoryNotFoundException("Could not find the training-set folder.");
@@ -49,7 +52,10 @@ namespace CodeClassifier
                 TokenNode rootNode = null;
                 double totalPossibleScore = 0;
                 string languageName = Path.GetFileNameWithoutExtension(languageFolder) ?? "undefined";
-
+                if(languageName=="csharp")
+                {
+                    languageName = "c#";
+                }
                 Dictionary<string, double> tokenFreq = new Dictionary<string, double>();
 
                 string allFilesContent = "";
@@ -193,6 +199,14 @@ namespace CodeClassifier
             return bestLanguage;
         }
 
+        public static void Initialize(string trainingSetPath,bool force=false)
+        {
+            if (_instance == null || force)
+            {
+                _instance = new CodeClassifier(trainingSetPath);
+            }
+        }
+
         public static string Classify(string snippet, out double certainty, out Dictionary<string, double> scores)
         {
             if (_instance == null)
@@ -215,7 +229,7 @@ namespace CodeClassifier
             scores = new Dictionary<string, double>();
             foreach (string language in scoresTp.Keys.ToList())
             {
-                scores[language] = scoresTp[language]*certTp + scoresMt[language]*certMt;
+                scores[language] = scoresTp[language] * certTp + scoresMt[language] * certMt;
             }
 
 
@@ -289,7 +303,7 @@ namespace CodeClassifier
         {
             Dictionary<string, double> snippletTokenFreqs = BuildFrequencyTable(GetAllTokens(snippet));
             scores = new Dictionary<string, double>();
-            
+
             double maxScore = 0;
             string bestMatchLanguage = "";
             foreach (string language in _tokenFreqPerLanguage.Keys)
@@ -304,9 +318,10 @@ namespace CodeClassifier
                     if (trainingFreq == 0 && snippletFreq == 0)
                     {
                         languageScore += 1;
-                    } else if (trainingFreq != 0 && snippletFreq != 0)
+                    }
+                    else if (trainingFreq != 0 && snippletFreq != 0)
                     {
-                        languageScore += (1 - Math.Abs(trainingFreq - snippletFreq))*FREQ_SCORE_MULTIPLIER;
+                        languageScore += (1 - Math.Abs(trainingFreq - snippletFreq)) * FREQ_SCORE_MULTIPLIER;
                     }
                 }
                 scores.Add(language, languageScore);
