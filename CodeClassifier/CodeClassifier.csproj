@@ -46,17 +46,17 @@
     <Compile Include="StringTokenizer\StringTokenizer.cs" />
     <Compile Include="StringTokenizer\Token.cs" />
     <Compile Include="TokenNode.cs" />
-    <EmbeddedResource Include="training-set\csharp\BasicAuthenticationFixture.cs">
+    <EmbeddedResource Include="training-set\Csharp\BasicAuthenticationFixture.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\ChromiumWebBrowser.cs">
+    <EmbeddedResource Include="training-set\Csharp\ChromiumWebBrowser.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\csharp.cs">
+    <EmbeddedResource Include="training-set\Csharp\csharp.cs">
       <SubType>Component</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\MemberIdentifier.cs">
+    <EmbeddedResource Include="training-set\Csharp\MemberIdentifier.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
@@ -64,1839 +64,1839 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\ruby\artifactory.rb">
+    <EmbeddedResource Include="training-set\Ruby\artifactory.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\jekyll_steps.rb">
+    <EmbeddedResource Include="training-set\Ruby\jekyll_steps.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\ruby.rb">
+    <EmbeddedResource Include="training-set\Ruby\ruby.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\travis.rb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="training-set\c++\c++.cpp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\hstest.cpp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\NaClFile.cpp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\html\html.html">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\html\index.html">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\html\options.html">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\html\test.html">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\javascript.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\new  2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\new  3.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\new  4.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\new  5.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\new  2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\new  3.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\new  4.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\python.py">
+    <EmbeddedResource Include="training-set\Ruby\travis.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\java\ack.java">
+    <EmbeddedResource Include="training-set\C++\c++.cpp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\ackermann.java">
+    <EmbeddedResource Include="training-set\C++\hstest.cpp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\ary.java">
+    <EmbeddedResource Include="training-set\C++\NaClFile.cpp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\binarytrees.java-2.java">
+    <EmbeddedResource Include="training-set\HTML\html.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\chameneos.java-2.java">
+    <EmbeddedResource Include="training-set\HTML\index.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\chameneos.java-3.java">
+    <EmbeddedResource Include="training-set\HTML\options.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\chameneosredux.java">
+    <EmbeddedResource Include="training-set\HTML\test.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\chameneosredux.java-2.java">
+    <EmbeddedResource Include="training-set\JavaScript\javascript.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\echo.java">
+    <EmbeddedResource Include="training-set\JavaScript\new  2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\except.java">
+    <EmbeddedResource Include="training-set\JavaScript\new  3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\fannkuch.java-2.java">
+    <EmbeddedResource Include="training-set\JavaScript\new  4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\fannkuch.java-3.java">
+    <EmbeddedResource Include="training-set\JavaScript\new  5.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\fannkuch.java-4.java">
+    <EmbeddedResource Include="training-set\Python\new  2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\fasta.java-2.java">
+    <EmbeddedResource Include="training-set\Python\new  3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\fibo.java">
+    <EmbeddedResource Include="training-set\Python\new  4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\harmonic.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\hash.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\hash2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\heapsort.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\hello.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\knucleotide.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\lists.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\lists.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\magicsquares.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\mandelbrot.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\mandelbrot.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\matrix.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java-5.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\message.java-6.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\meteor.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\meteor.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\methcall.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\moments.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nbody.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nbody.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nestedloop.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsieve.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsieve.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsieve.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsievebits.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsievebits.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsievebits.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsievebits.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\nsievebits.java-5.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\objinst.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\partialsums.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\partialsums.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\partialsums.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\pidigits.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\pidigits.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\process.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\prodcons.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\random.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\raytracer.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\recursive.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\regexdna.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\regexmatch.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\revcomp.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\reversefile.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\sieve.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\spectralnorm.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\spellcheck.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\spellcheck.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\strcat.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\sumcol.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\sumcol.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\sumcol.java-4.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\takfp.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\threadring.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\threadring.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\threadring.java-3.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\wc.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\wc.java-2.java">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\wordfreq.java">
+    <EmbeddedResource Include="training-set\Python\python.py">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\ruby\ackermann.ruby">
+    <EmbeddedResource Include="training-set\Java\ack.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\ackermann.ruby-5.ruby">
+    <EmbeddedResource Include="training-set\Java\ackermann.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\ary.ruby">
+    <EmbeddedResource Include="training-set\Java\ary.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\binarytrees.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\binarytrees.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\chameneos.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\chameneos.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\dispatch.ruby">
+    <EmbeddedResource Include="training-set\Java\chameneos.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\echo.ruby">
+    <EmbeddedResource Include="training-set\Java\chameneosredux.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\except.ruby">
+    <EmbeddedResource Include="training-set\Java\chameneosredux.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\except.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\echo.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\fannkuch.ruby">
+    <EmbeddedResource Include="training-set\Java\except.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\fasta.ruby">
+    <EmbeddedResource Include="training-set\Java\fannkuch.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\fibo.ruby">
+    <EmbeddedResource Include="training-set\Java\fannkuch.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\harmonic.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\fannkuch.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\hash.ruby">
+    <EmbeddedResource Include="training-set\Java\fasta.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\hash2.ruby">
+    <EmbeddedResource Include="training-set\Java\fibo.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\heapsort.ruby">
+    <EmbeddedResource Include="training-set\Java\harmonic.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\hello.ruby">
+    <EmbeddedResource Include="training-set\Java\hash.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\knucleotide.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\hash2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\lists.ruby">
+    <EmbeddedResource Include="training-set\Java\heapsort.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\mandelbrot.ruby-3.ruby">
+    <EmbeddedResource Include="training-set\Java\hello.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\matrix.ruby">
+    <EmbeddedResource Include="training-set\Java\knucleotide.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\matrix.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\lists.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\message.ruby">
+    <EmbeddedResource Include="training-set\Java\lists.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\message.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\magicsquares.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\meteor.ruby">
+    <EmbeddedResource Include="training-set\Java\mandelbrot.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\meteor.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\mandelbrot.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\methcall.ruby">
+    <EmbeddedResource Include="training-set\Java\matrix.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\methcall.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\moments.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\nbody.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\nestedloop.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\nsieve.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java-5.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\nsieve.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\message.java-6.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\nsievebits.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\meteor.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\objinst.ruby">
+    <EmbeddedResource Include="training-set\Java\meteor.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\partialsums.ruby">
+    <EmbeddedResource Include="training-set\Java\methcall.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\pidigits.ruby">
+    <EmbeddedResource Include="training-set\Java\moments.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\pidigits.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\nbody.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\prodcons.ruby">
+    <EmbeddedResource Include="training-set\Java\nbody.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\random.ruby">
+    <EmbeddedResource Include="training-set\Java\nestedloop.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\recursive.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\nsieve.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\regexdna.ruby">
+    <EmbeddedResource Include="training-set\Java\nsieve.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\regexdna.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\nsieve.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\regexmatch.ruby">
+    <EmbeddedResource Include="training-set\Java\nsievebits.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\revcomp.ruby">
+    <EmbeddedResource Include="training-set\Java\nsievebits.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\reversefile.ruby">
+    <EmbeddedResource Include="training-set\Java\nsievebits.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\sieve.ruby">
+    <EmbeddedResource Include="training-set\Java\nsievebits.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\spectralnorm.ruby">
+    <EmbeddedResource Include="training-set\Java\nsievebits.java-5.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\spellcheck.ruby">
+    <EmbeddedResource Include="training-set\Java\objinst.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\spellcheck.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\partialsums.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\strcat.ruby">
+    <EmbeddedResource Include="training-set\Java\partialsums.java-3.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\strcat.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\partialsums.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\sumcol.ruby">
+    <EmbeddedResource Include="training-set\Java\pidigits.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\sumcol.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\pidigits.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\takfp.ruby">
+    <EmbeddedResource Include="training-set\Java\process.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\tcpecho.ruby">
+    <EmbeddedResource Include="training-set\Java\prodcons.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\tcprequest.ruby">
+    <EmbeddedResource Include="training-set\Java\random.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\tcpstream.ruby">
+    <EmbeddedResource Include="training-set\Java\raytracer.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\threadring.ruby">
+    <EmbeddedResource Include="training-set\Java\recursive.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\threadring.ruby-2.ruby">
+    <EmbeddedResource Include="training-set\Java\regexdna.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\wc.ruby">
+    <EmbeddedResource Include="training-set\Java\regexmatch.java-2.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\wordfreq.ruby">
+    <EmbeddedResource Include="training-set\Java\revcomp.java-4.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\ruby\wordfreq.ruby2.ruby">
+    <EmbeddedResource Include="training-set\Java\reversefile.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\sieve.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\spectralnorm.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\spellcheck.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\spellcheck.java-2.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\strcat.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\sumcol.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\sumcol.java-3.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\sumcol.java-4.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\takfp.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\threadring.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\threadring.java-2.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\threadring.java-3.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\wc.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\wc.java-2.java">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Java\wordfreq.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\css\csszengarden_100.css">
+    <EmbeddedResource Include="training-set\Ruby\ackermann.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_101.css">
+    <EmbeddedResource Include="training-set\Ruby\ackermann.ruby-5.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_102.css">
+    <EmbeddedResource Include="training-set\Ruby\ary.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_103.css">
+    <EmbeddedResource Include="training-set\Ruby\binarytrees.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_104.css">
+    <EmbeddedResource Include="training-set\Ruby\chameneos.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_105.css">
+    <EmbeddedResource Include="training-set\Ruby\dispatch.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_106.css">
+    <EmbeddedResource Include="training-set\Ruby\echo.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_107.css">
+    <EmbeddedResource Include="training-set\Ruby\except.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_108.css">
+    <EmbeddedResource Include="training-set\Ruby\except.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_109.css">
+    <EmbeddedResource Include="training-set\Ruby\fannkuch.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_110.css">
+    <EmbeddedResource Include="training-set\Ruby\fasta.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_111.css">
+    <EmbeddedResource Include="training-set\Ruby\fibo.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_112.css">
+    <EmbeddedResource Include="training-set\Ruby\harmonic.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_113.css">
+    <EmbeddedResource Include="training-set\Ruby\hash.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_114.css">
+    <EmbeddedResource Include="training-set\Ruby\hash2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_115.css">
+    <EmbeddedResource Include="training-set\Ruby\heapsort.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_116.css">
+    <EmbeddedResource Include="training-set\Ruby\hello.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_117.css">
+    <EmbeddedResource Include="training-set\Ruby\knucleotide.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_118.css">
+    <EmbeddedResource Include="training-set\Ruby\lists.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_119.css">
+    <EmbeddedResource Include="training-set\Ruby\mandelbrot.ruby-3.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_120.css">
+    <EmbeddedResource Include="training-set\Ruby\matrix.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_121.css">
+    <EmbeddedResource Include="training-set\Ruby\matrix.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_122.css">
+    <EmbeddedResource Include="training-set\Ruby\message.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_123.css">
+    <EmbeddedResource Include="training-set\Ruby\message.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_124.css">
+    <EmbeddedResource Include="training-set\Ruby\meteor.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_125.css">
+    <EmbeddedResource Include="training-set\Ruby\meteor.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_126.css">
+    <EmbeddedResource Include="training-set\Ruby\methcall.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_127.css">
+    <EmbeddedResource Include="training-set\Ruby\methcall.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_128.css">
+    <EmbeddedResource Include="training-set\Ruby\moments.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_129.css">
+    <EmbeddedResource Include="training-set\Ruby\nbody.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_130.css">
+    <EmbeddedResource Include="training-set\Ruby\nestedloop.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_131.css">
+    <EmbeddedResource Include="training-set\Ruby\nsieve.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_132.css">
+    <EmbeddedResource Include="training-set\Ruby\nsieve.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_133.css">
+    <EmbeddedResource Include="training-set\Ruby\nsievebits.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_134.css">
+    <EmbeddedResource Include="training-set\Ruby\objinst.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_135.css">
+    <EmbeddedResource Include="training-set\Ruby\partialsums.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_136.css">
+    <EmbeddedResource Include="training-set\Ruby\pidigits.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_137.css">
+    <EmbeddedResource Include="training-set\Ruby\pidigits.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_138.css">
+    <EmbeddedResource Include="training-set\Ruby\prodcons.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_139.css">
+    <EmbeddedResource Include="training-set\Ruby\random.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_140.css">
+    <EmbeddedResource Include="training-set\Ruby\recursive.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_141.css">
+    <EmbeddedResource Include="training-set\Ruby\regexdna.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_142.css">
+    <EmbeddedResource Include="training-set\Ruby\regexdna.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_143.css">
+    <EmbeddedResource Include="training-set\Ruby\regexmatch.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_144.css">
+    <EmbeddedResource Include="training-set\Ruby\revcomp.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_145.css">
+    <EmbeddedResource Include="training-set\Ruby\reversefile.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_146.css">
+    <EmbeddedResource Include="training-set\Ruby\sieve.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_147.css">
+    <EmbeddedResource Include="training-set\Ruby\spectralnorm.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_148.css">
+    <EmbeddedResource Include="training-set\Ruby\spellcheck.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_149.css">
+    <EmbeddedResource Include="training-set\Ruby\spellcheck.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_150.css">
+    <EmbeddedResource Include="training-set\Ruby\strcat.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_151.css">
+    <EmbeddedResource Include="training-set\Ruby\strcat.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_152.css">
+    <EmbeddedResource Include="training-set\Ruby\sumcol.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_153.css">
+    <EmbeddedResource Include="training-set\Ruby\sumcol.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_154.css">
+    <EmbeddedResource Include="training-set\Ruby\takfp.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_155.css">
+    <EmbeddedResource Include="training-set\Ruby\tcpecho.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_156.css">
+    <EmbeddedResource Include="training-set\Ruby\tcprequest.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_157.css">
+    <EmbeddedResource Include="training-set\Ruby\tcpstream.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_158.css">
+    <EmbeddedResource Include="training-set\Ruby\threadring.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_159.css">
+    <EmbeddedResource Include="training-set\Ruby\threadring.ruby-2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_160.css">
+    <EmbeddedResource Include="training-set\Ruby\wc.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_161.css">
+    <EmbeddedResource Include="training-set\Ruby\wordfreq.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_162.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_163.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_164.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_165.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_166.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_167.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_168.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_169.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_170.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_171.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_172.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_173.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_174.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_175.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_176.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_177.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_178.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_179.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_180.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_181.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_182.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_183.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_184.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_185.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_186.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_187.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_188.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_189.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_190.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_191.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_192.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_193.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_194.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_195.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_196.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_197.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_198.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_199.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\css\csszengarden_200.css">
+    <EmbeddedResource Include="training-set\Ruby\wordfreq.ruby2.ruby">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\java\InetAddresses.java">
+    <EmbeddedResource Include="training-set\CSS\csszengarden_100.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\InstancePermission.java">
+    <EmbeddedResource Include="training-set\CSS\csszengarden_101.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\IPermissionPolicy.java">
+    <EmbeddedResource Include="training-set\CSS\csszengarden_102.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\OAHashSetBenchmark.java">
+    <EmbeddedResource Include="training-set\CSS\csszengarden_103.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\java\SubscriberFusion.java">
+    <EmbeddedResource Include="training-set\CSS\csszengarden_104.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_105.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_106.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_107.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_108.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_109.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_110.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_111.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_112.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_113.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_114.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_115.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_116.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_117.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_118.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_119.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_120.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_121.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_122.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_123.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_124.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_125.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_126.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_127.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_128.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_129.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_130.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_131.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_132.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_133.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_134.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_135.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_136.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_137.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_138.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_139.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_140.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_141.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_142.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_143.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_144.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_145.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_146.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_147.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_148.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_149.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_150.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_151.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_152.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_153.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_154.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_155.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_156.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_157.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_158.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_159.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_160.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_161.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_162.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_163.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_164.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_165.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_166.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_167.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_168.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_169.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_170.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_171.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_172.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_173.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_174.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_175.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_176.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_177.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_178.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_179.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_180.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_181.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_182.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_183.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_184.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_185.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_186.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_187.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_188.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_189.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_190.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_191.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_192.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_193.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_194.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_195.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_196.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_197.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_198.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_199.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\CSS\csszengarden_200.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\csharp\ackermann.csharp">
+    <EmbeddedResource Include="training-set\Java\InetAddresses.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\ary.csharp">
+    <EmbeddedResource Include="training-set\Java\InstancePermission.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\binarytrees.csharp-2.csharp">
+    <EmbeddedResource Include="training-set\Java\IPermissionPolicy.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\chameneos.csharp-2.csharp">
+    <EmbeddedResource Include="training-set\Java\OAHashSetBenchmark.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\chameneos.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\chameneosredux.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\dispatch.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\echo.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\echo.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\except.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuch.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuch.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuch.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuchredux.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuchredux.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fannkuchredux.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fasta.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fasta.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\fibo.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\harmonic.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\hash.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\hash2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\health.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\heapsort.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\hello.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\knucleotide.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\knucleotide.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\knucleotide.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\knucleotide.csharp-4.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\lists.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\lists.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\mandelbrot.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\mandelbrot.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\mandelbrot.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\matrix.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\message.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\methcall.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\moments.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nbody.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nbody.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nbody.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nbody.csharp-4.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nestedloop.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nsieve.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\nsievebits.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\objinst.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\partialsums.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\pidigits.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\pidigits.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\prodcons.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\random.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\raytracer.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\raytracer.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\recursive.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\regexdna.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\regexdna.csharp-6.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\regexmatch.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\revcomp.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\revcomp.csharp-3.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\reversefile.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\sieve.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\spectralnorm.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\spectralnorm.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\spellcheck.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\strcat.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\sumcol.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\sumcol.csharp-2.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\takfp.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\tcpecho.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\tcprequest.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\tcpsocket.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\tcpstream.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\threadring.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\wc.csharp">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\csharp\wordfreq.csharp-2.csharp">
+    <EmbeddedResource Include="training-set\Java\SubscriberFusion.java">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\javascript\ackermann.javascript">
+    <EmbeddedResource Include="training-set\Csharp\ackermann.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\ary.javascript">
+    <EmbeddedResource Include="training-set\Csharp\ary.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\binarytrees.javascript">
+    <EmbeddedResource Include="training-set\Csharp\binarytrees.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\fannkuch.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\chameneos.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\fannkuchredux.javascript">
+    <EmbeddedResource Include="training-set\Csharp\chameneos.csharp-3.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\fasta.javascript">
+    <EmbeddedResource Include="training-set\Csharp\chameneosredux.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\fasta.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\dispatch.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\fibo.javascript">
+    <EmbeddedResource Include="training-set\Csharp\echo.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\harmonic.javascript">
+    <EmbeddedResource Include="training-set\Csharp\echo.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\hash.javascript">
+    <EmbeddedResource Include="training-set\Csharp\except.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\hash2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuch.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\heapsort.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuch.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\hello.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuch.csharp-3.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\knucleotide.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuchredux.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\knucleotide.javascript-3.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuchredux.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\lists.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fannkuchredux.csharp-3.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\mandelbrot.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fasta.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\mandelbrot.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fasta.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\matrix.javascript">
+    <EmbeddedResource Include="training-set\Csharp\fibo.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\methcall.javascript">
+    <EmbeddedResource Include="training-set\Csharp\harmonic.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\nbody.javascript">
+    <EmbeddedResource Include="training-set\Csharp\hash.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\nestedloop.javascript">
+    <EmbeddedResource Include="training-set\Csharp\hash2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\nsieve.javascript">
+    <EmbeddedResource Include="training-set\Csharp\health.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\nsievebits.javascript">
+    <EmbeddedResource Include="training-set\Csharp\heapsort.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\objinst.javascript">
+    <EmbeddedResource Include="training-set\Csharp\hello.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\partialsums.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\knucleotide.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\pidigits.javascript">
+    <EmbeddedResource Include="training-set\Csharp\knucleotide.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\random.javascript">
+    <EmbeddedResource Include="training-set\Csharp\knucleotide.csharp-3.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\recursive.javascript">
+    <EmbeddedResource Include="training-set\Csharp\knucleotide.csharp-4.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\regexdna.javascript">
+    <EmbeddedResource Include="training-set\Csharp\lists.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\regexdna.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\lists.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\revcomp.javascript">
+    <EmbeddedResource Include="training-set\Csharp\mandelbrot.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\revcomp.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\mandelbrot.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\sieve.javascript">
+    <EmbeddedResource Include="training-set\Csharp\mandelbrot.csharp-3.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\sieve.javascript-2.javascript">
+    <EmbeddedResource Include="training-set\Csharp\matrix.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\spectralnorm.javascript">
+    <EmbeddedResource Include="training-set\Csharp\message.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\strcat.javascript">
+    <EmbeddedResource Include="training-set\Csharp\methcall.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\sumcol.javascript">
+    <EmbeddedResource Include="training-set\Csharp\moments.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\javascript\takfp.javascript">
+    <EmbeddedResource Include="training-set\Csharp\nbody.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nbody.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nbody.csharp-3.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nbody.csharp-4.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nestedloop.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nsieve.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\nsievebits.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\objinst.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\partialsums.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\pidigits.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\pidigits.csharp-3.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\prodcons.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\random.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\raytracer.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\raytracer.csharp-3.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\recursive.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\regexdna.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\regexdna.csharp-6.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\regexmatch.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\revcomp.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\revcomp.csharp-3.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\reversefile.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\sieve.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\spectralnorm.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\spectralnorm.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\spellcheck.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\strcat.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\sumcol.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\sumcol.csharp-2.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\takfp.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\tcpecho.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\tcprequest.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\tcpsocket.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\tcpstream.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\threadring.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\wc.csharp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Csharp\wordfreq.csharp-2.csharp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\python\ackermann.python">
+    <EmbeddedResource Include="training-set\JavaScript\ackermann.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\ary.python">
+    <EmbeddedResource Include="training-set\JavaScript\ary.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\binarytrees.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\binarytrees.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\binarytrees.python-7.python">
+    <EmbeddedResource Include="training-set\JavaScript\fannkuch.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\binarytrees.python3-7.python3">
+    <EmbeddedResource Include="training-set\JavaScript\fannkuchredux.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\chameneos.python-6.python">
+    <EmbeddedResource Include="training-set\JavaScript\fasta.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\chameneosredux.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\fasta.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\chameneosredux.python3-2.python3">
+    <EmbeddedResource Include="training-set\JavaScript\fibo.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\dispatch.python">
+    <EmbeddedResource Include="training-set\JavaScript\harmonic.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\dispatch.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\hash.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\echo.python">
+    <EmbeddedResource Include="training-set\JavaScript\hash2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\except.python">
+    <EmbeddedResource Include="training-set\JavaScript\heapsort.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuch.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\hello.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuch.python3">
+    <EmbeddedResource Include="training-set\JavaScript\knucleotide.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuch.python3-2.python3">
+    <EmbeddedResource Include="training-set\JavaScript\knucleotide.javascript-3.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuchredux.python-6.python">
+    <EmbeddedResource Include="training-set\JavaScript\lists.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuchredux.python-7.python">
+    <EmbeddedResource Include="training-set\JavaScript\mandelbrot.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fannkuchredux.python3-6.python3">
+    <EmbeddedResource Include="training-set\JavaScript\mandelbrot.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python-4.python">
+    <EmbeddedResource Include="training-set\JavaScript\matrix.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python-5.python">
+    <EmbeddedResource Include="training-set\JavaScript\methcall.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python3-4.python3">
+    <EmbeddedResource Include="training-set\JavaScript\nbody.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python3-5.python3">
+    <EmbeddedResource Include="training-set\JavaScript\nestedloop.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python3-6.python3">
+    <EmbeddedResource Include="training-set\JavaScript\nsieve.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fasta.python3-7.python3">
+    <EmbeddedResource Include="training-set\JavaScript\nsievebits.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fibo.python">
+    <EmbeddedResource Include="training-set\JavaScript\objinst.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fibo.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\partialsums.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\fibo.python-3.python">
+    <EmbeddedResource Include="training-set\JavaScript\pidigits.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\harmonic.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\random.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\hash.python">
+    <EmbeddedResource Include="training-set\JavaScript\recursive.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\hash.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\regexdna.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\hash2.python">
+    <EmbeddedResource Include="training-set\JavaScript\regexdna.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\heapsort.python-3.python">
+    <EmbeddedResource Include="training-set\JavaScript\revcomp.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\hello.python">
+    <EmbeddedResource Include="training-set\JavaScript\revcomp.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\implicitode.python">
+    <EmbeddedResource Include="training-set\JavaScript\sieve.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python">
+    <EmbeddedResource Include="training-set\JavaScript\sieve.javascript-2.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python-2.python">
+    <EmbeddedResource Include="training-set\JavaScript\spectralnorm.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python-5.python">
+    <EmbeddedResource Include="training-set\JavaScript\strcat.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python-8.python">
+    <EmbeddedResource Include="training-set\JavaScript\sumcol.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\knucleotide.python3-8.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\lists.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\magicsquares.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\mandelbrot.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\mandelbrot.python-5.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\mandelbrot.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\mandelbrot.python3-3.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\mandelbrot.python3-5.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\matrix.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\matrix.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\message.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\message.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\message.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\meteor.python3-3.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\methcall.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\moments.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nbody.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nbody.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nestedloop.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nsieve.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nsieve.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nsieve.python-4.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nsievebits.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\nsievebits.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\objinst.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\partialsums.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\partialsums.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\partialsums.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python-4.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python-6.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python3-3.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python3-4.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\pidigits.python3-6.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\process.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\process.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\prodcons.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\prodcons.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\random.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\raytracer.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\recursive.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\regexdna.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\regexdna.python-5.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\regexdna.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\regexdna.python3-5.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\regexmatch.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\revcomp.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\revcomp.python-5.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\revcomp.python3-3.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\revcomp.python3-4.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\reversefile.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\reversefile.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\reversefile.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\sieve.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-4.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-5.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-6.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-7.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python-8.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python3-5.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python3-6.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spectralnorm.python3-8.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\spellcheck.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\strcat.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\strcat.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\sumcol.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\sumcol.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\takfp.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\tcpecho.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\tcprequest.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\tcpstream.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\threadring.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\threadring.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\threadring.python3-2.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\threadring.python3-3.python3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wc.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wordfreq.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wordfreq.python-2.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wordfreq.python-3.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wordfreq.python-4.python">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="training-set\python\wordfreq.python-5.python">
+    <EmbeddedResource Include="training-set\JavaScript\takfp.javascript">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\c++\ackermann.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\ackermann.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\ackermann.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\ary.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\ary.gcc">
+    <EmbeddedResource Include="training-set\Python\binarytrees.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\binarytrees.gcc">
+    <EmbeddedResource Include="training-set\Python\binarytrees.python-7.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\binarytrees.gcc-5.gcc">
+    <EmbeddedResource Include="training-set\Python\binarytrees.python3-7.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\binarytrees.gcc-7.gcc">
+    <EmbeddedResource Include="training-set\Python\chameneos.python-6.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\binarytrees.gcc-9.gcc">
+    <EmbeddedResource Include="training-set\Python\chameneosredux.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\chameneos.gcc">
+    <EmbeddedResource Include="training-set\Python\chameneosredux.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\chameneos.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\dispatch.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\chameneos.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\dispatch.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\chameneosredux.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\echo.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\chameneosredux.gcc-5.gcc">
+    <EmbeddedResource Include="training-set\Python\except.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\echo.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuch.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\except.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuch.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fannkuch.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuch.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fannkuch.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuchredux.python-6.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fannkuchredux.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuchredux.python-7.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fasta.gcc">
+    <EmbeddedResource Include="training-set\Python\fannkuchredux.python3-6.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fasta.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python-4.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fasta.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python-5.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fasta.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python3-4.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\fibo.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python3-5.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\harmonic.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python3-6.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\hash.gcc">
+    <EmbeddedResource Include="training-set\Python\fasta.python3-7.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\hash2.gcc">
+    <EmbeddedResource Include="training-set\Python\fibo.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\heapsort.gcc">
+    <EmbeddedResource Include="training-set\Python\fibo.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\hello.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\fibo.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\hello.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\harmonic.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\knucleotide.gcc-5.gcc">
+    <EmbeddedResource Include="training-set\Python\hash.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\knucleotide.gcc-6.gcc">
+    <EmbeddedResource Include="training-set\Python\hash.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\knucleotide.gcc-7.gcc">
+    <EmbeddedResource Include="training-set\Python\hash2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\lists.gcc">
+    <EmbeddedResource Include="training-set\Python\heapsort.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\magicsquares.gcc">
+    <EmbeddedResource Include="training-set\Python\hello.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\mandelbrot.gcc">
+    <EmbeddedResource Include="training-set\Python\implicitode.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\mandelbrot.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\mandelbrot.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\mandelbrot.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python-5.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\mandelbrot.gcc-6.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python-8.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\matrix.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\message.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\message.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\knucleotide.python3-8.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\meteor.gcc">
+    <EmbeddedResource Include="training-set\Python\lists.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\methcall.gcc">
+    <EmbeddedResource Include="training-set\Python\magicsquares.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\moments.gcc">
+    <EmbeddedResource Include="training-set\Python\mandelbrot.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nbody.gcc">
+    <EmbeddedResource Include="training-set\Python\mandelbrot.python-5.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nbody.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\mandelbrot.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nbody.gcc-5.gcc">
+    <EmbeddedResource Include="training-set\Python\mandelbrot.python3-3.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nestedloop.gcc">
+    <EmbeddedResource Include="training-set\Python\mandelbrot.python3-5.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nsieve.gcc">
+    <EmbeddedResource Include="training-set\Python\matrix.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nsievebits.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\matrix.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\nsievebits.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\message.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\objinst.gcc">
+    <EmbeddedResource Include="training-set\Python\message.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\partialsums.gcc">
+    <EmbeddedResource Include="training-set\Python\message.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\partialsums.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\partialsums.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\pidigits.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\primes.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\prodcons.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\random.gcc">
+    <EmbeddedResource Include="training-set\Python\meteor.python3-3.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\raytracer.gcc">
+    <EmbeddedResource Include="training-set\Python\methcall.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\raytracer.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\moments.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\recursive.gcc">
+    <EmbeddedResource Include="training-set\Python\nbody.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\recursive.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\nbody.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\regexdna.gcc">
+    <EmbeddedResource Include="training-set\Python\nestedloop.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\regexdna.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\nsieve.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\regexdna.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\nsieve.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\regexmatch.gcc">
+    <EmbeddedResource Include="training-set\Python\nsieve.python-4.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\revcomp.gcc">
+    <EmbeddedResource Include="training-set\Python\nsievebits.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\revcomp.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\nsievebits.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\reversefile.gcc">
+    <EmbeddedResource Include="training-set\Python\objinst.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\reversefile.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\partialsums.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\sieve.gcc">
+    <EmbeddedResource Include="training-set\Python\partialsums.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\spectralnorm.gcc">
+    <EmbeddedResource Include="training-set\Python\partialsums.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\spectralnorm.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\spectralnorm.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python-3.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\spellcheck.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python-4.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\spellcheck.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python-6.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\strcat.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python3-2.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\sumcol.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python3-3.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\sumcol.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python3-4.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\sumcol.gcc-4.gcc">
+    <EmbeddedResource Include="training-set\Python\pidigits.python3-6.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\sumcol.gcc-5.gcc">
+    <EmbeddedResource Include="training-set\Python\process.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\takfp.gcc">
+    <EmbeddedResource Include="training-set\Python\process.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\tcp-stream.gcc">
+    <EmbeddedResource Include="training-set\Python\prodcons.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\tcpecho.gcc">
+    <EmbeddedResource Include="training-set\Python\prodcons.python-2.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\tcpecho.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\random.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\tcprequest.gcc">
+    <EmbeddedResource Include="training-set\Python\raytracer.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\threadring.gcc">
+    <EmbeddedResource Include="training-set\Python\recursive.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\threadring.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\regexdna.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\wc.gcc">
+    <EmbeddedResource Include="training-set\Python\regexdna.python-5.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\wc.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\regexdna.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\wc.gcc-3.gcc">
+    <EmbeddedResource Include="training-set\Python\regexdna.python3-5.python3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="training-set\c++\wordfreq.gcc-2.gcc">
+    <EmbeddedResource Include="training-set\Python\regexmatch.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\revcomp.python-3.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\revcomp.python-5.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\revcomp.python3-3.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\revcomp.python3-4.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\reversefile.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\reversefile.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\reversefile.python-3.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\sieve.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-4.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-5.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-6.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-7.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python-8.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python3-2.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python3-5.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python3-6.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spectralnorm.python3-8.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\spellcheck.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\strcat.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\strcat.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\sumcol.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\sumcol.python-3.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\takfp.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\tcpecho.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\tcprequest.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\tcpstream.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\threadring.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\threadring.python-3.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\threadring.python3-2.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\threadring.python3-3.python3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wc.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wordfreq.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wordfreq.python-2.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wordfreq.python-3.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wordfreq.python-4.python">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\Python\wordfreq.python-5.python">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="training-set\c++\sumcol.gcc-4.gcc.c">
+    <EmbeddedResource Include="training-set\C++\ackermann.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\ackermann.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\ary.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\binarytrees.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\binarytrees.gcc-5.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\binarytrees.gcc-7.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\binarytrees.gcc-9.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\chameneos.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\chameneos.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\chameneos.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\chameneosredux.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\chameneosredux.gcc-5.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\echo.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\except.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fannkuch.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fannkuch.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fannkuchredux.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fasta.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fasta.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fasta.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fasta.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\fibo.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\harmonic.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\hash.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\hash2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\heapsort.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\hello.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\hello.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\knucleotide.gcc-5.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\knucleotide.gcc-6.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\knucleotide.gcc-7.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\lists.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\magicsquares.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\mandelbrot.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\mandelbrot.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\mandelbrot.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\mandelbrot.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\mandelbrot.gcc-6.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\matrix.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\message.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\message.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\meteor.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\methcall.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\moments.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nbody.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nbody.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nbody.gcc-5.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nestedloop.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nsieve.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nsievebits.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\nsievebits.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\objinst.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\partialsums.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\partialsums.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\partialsums.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\pidigits.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\primes.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\prodcons.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\random.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\raytracer.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\raytracer.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\recursive.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\recursive.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\regexdna.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\regexdna.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\regexdna.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\regexmatch.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\revcomp.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\revcomp.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\reversefile.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\reversefile.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\sieve.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\spectralnorm.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\spectralnorm.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\spectralnorm.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\spellcheck.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\spellcheck.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\strcat.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\sumcol.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\sumcol.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\sumcol.gcc-4.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\sumcol.gcc-5.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\takfp.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\tcp-stream.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\tcpecho.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\tcpecho.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\tcprequest.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\threadring.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\threadring.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\wc.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\wc.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\wc.gcc-3.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="training-set\C++\wordfreq.gcc-2.gcc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="training-set\C++\sumcol.gcc-4.gcc.c">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

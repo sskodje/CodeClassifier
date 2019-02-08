@@ -52,9 +52,9 @@ namespace CodeClassifier
                 TokenNode rootNode = null;
                 double totalPossibleScore = 0;
                 string languageName = Path.GetFileNameWithoutExtension(languageFolder) ?? "undefined";
-                if(languageName=="csharp")
+                if(languageName=="Csharp")
                 {
-                    languageName = "c#";
+                    languageName = "C#";
                 }
                 Dictionary<string, double> tokenFreq = new Dictionary<string, double>();
 
