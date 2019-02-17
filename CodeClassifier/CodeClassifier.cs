@@ -24,6 +24,7 @@ namespace CodeClassifier
         private static List<MatchTree> _matchTrees;
         private static HashSet<string> _uniqueTokenSet;
         private static Dictionary<string, Dictionary<string, double>> _tokenFreqPerLanguage;
+        private static readonly object LockObject = new object();
 
         private CodeClassifier(string trainingSetPath = "")
         {
@@ -52,7 +53,7 @@ namespace CodeClassifier
                 TokenNode rootNode = null;
                 double totalPossibleScore = 0;
                 string languageName = Path.GetFileNameWithoutExtension(languageFolder) ?? "undefined";
-                if(languageName=="Csharp")
+                if (languageName == "Csharp")
                 {
                     languageName = "C#";
                 }
@@ -199,11 +200,15 @@ namespace CodeClassifier
             return bestLanguage;
         }
 
-        public static void Initialize(string trainingSetPath,bool force=false)
+        public static void Initialize(string trainingSetPath, bool force = false)
         {
-            if (_instance == null || force)
+            lock (LockObject)
             {
-                _instance = new CodeClassifier(trainingSetPath);
+
+                if (_instance == null || force)
+                {
+                    _instance = new CodeClassifier(trainingSetPath);
+                }
             }
         }
 
